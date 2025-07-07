@@ -33,18 +33,18 @@
 		31B999A92E1C58100035CF98 /* Exceptions for "ChefDelivery" folder in "ChefDelivery" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				App/ChefDeliveryApp.swift,
+				App/ContentView.swift,
 				Assets.xcassets,
-				ChefDeliveryApp.swift,
-				ContentView.swift,
 			);
 			target = 31B9996D2E1C49430035CF98 /* ChefDelivery */;
 		};
 		31B999AA2E1C58100035CF98 /* Exceptions for "ChefDelivery" folder in "ChefDeliveryUITests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				App/ChefDeliveryApp.swift,
+				App/ContentView.swift,
 				Assets.xcassets,
-				ChefDeliveryApp.swift,
-				ContentView.swift,
 			);
 			target = 31B999842E1C49450035CF98 /* ChefDeliveryUITests */;
 		};
