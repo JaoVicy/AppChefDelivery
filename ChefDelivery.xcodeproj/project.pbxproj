@@ -29,12 +29,28 @@
 		31B999852E1C49450035CF98 /* ChefDeliveryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChefDeliveryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		31B999702E1C49430035CF98 /* ChefDelivery */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ChefDelivery;
-			sourceTree = "<group>";
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		31B999A92E1C58100035CF98 /* Exceptions for "ChefDelivery" folder in "ChefDelivery" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				ChefDeliveryApp.swift,
+				ContentView.swift,
+			);
+			target = 31B9996D2E1C49430035CF98 /* ChefDelivery */;
 		};
+		31B999AA2E1C58100035CF98 /* Exceptions for "ChefDelivery" folder in "ChefDeliveryUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				ChefDeliveryApp.swift,
+				ContentView.swift,
+			);
+			target = 31B999842E1C49450035CF98 /* ChefDeliveryUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
 		31B9997E2E1C49450035CF98 /* ChefDeliveryTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ChefDeliveryTests;
@@ -43,6 +59,15 @@
 		31B999882E1C49450035CF98 /* ChefDeliveryUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ChefDeliveryUITests;
+			sourceTree = "<group>";
+		};
+		31B999A52E1C58100035CF98 /* ChefDelivery */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				31B999A92E1C58100035CF98 /* Exceptions for "ChefDelivery" folder in "ChefDelivery" target */,
+				31B999AA2E1C58100035CF98 /* Exceptions for "ChefDelivery" folder in "ChefDeliveryUITests" target */,
+			);
+			path = ChefDelivery;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,10 +100,10 @@
 		31B999652E1C49430035CF98 = {
 			isa = PBXGroup;
 			children = (
-				31B999702E1C49430035CF98 /* ChefDelivery */,
 				31B9997E2E1C49450035CF98 /* ChefDeliveryTests */,
 				31B999882E1C49450035CF98 /* ChefDeliveryUITests */,
 				31B9996F2E1C49430035CF98 /* Products */,
+				31B999A52E1C58100035CF98 /* ChefDelivery */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,9 +131,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				31B999702E1C49430035CF98 /* ChefDelivery */,
 			);
 			name = ChefDelivery;
 			packageProductDependencies = (
@@ -155,6 +177,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				31B999882E1C49450035CF98 /* ChefDeliveryUITests */,
+				31B999A52E1C58100035CF98 /* ChefDelivery */,
 			);
 			name = ChefDeliveryUITests;
 			packageProductDependencies = (
