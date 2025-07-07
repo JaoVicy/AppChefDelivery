@@ -20,8 +20,10 @@ struct NavigationBar: View {
             
             Spacer()
             
-            Button("Notificações") {
-                
+            Button(action: {}) {
+                Image(systemName: "bell.badge")
+                    .font(.title3)
+                    .foregroundColor(.red)
             }
         }
     }
