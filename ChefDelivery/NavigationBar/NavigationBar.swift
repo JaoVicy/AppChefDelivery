@@ -10,9 +10,15 @@ import SwiftUI
 struct NavigationBar: View {
     var body: some View {
         HStack {
-            Button("R. tau, B") {
+            Spacer()
+            Button("R. tau, 3214") {
                 /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
             }
+            .font(.subheadline)
+            .fontWeight(.semibold)
+            .foregroundColor(.black)
+            
+            Spacer()
             
             Button("Notificações") {
                 
