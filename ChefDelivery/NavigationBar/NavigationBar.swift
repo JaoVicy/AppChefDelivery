@@ -12,7 +12,7 @@ struct NavigationBar: View {
         HStack {
             Spacer()
             Button("R. tau, 3214") {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                
             }
             .font(.subheadline)
             .fontWeight(.semibold)
@@ -29,6 +29,8 @@ struct NavigationBar: View {
     }
 }
 
-#Preview {
+#Preview(traits: .sizeThatFitsLayout) {
     NavigationBar()
+        .previewLayout(.sizeThatFits)
+        .padding()
 }
