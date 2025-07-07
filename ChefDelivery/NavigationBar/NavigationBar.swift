@@ -9,8 +9,14 @@ import SwiftUI
 
 struct NavigationBar: View {
     var body: some View {
-        VStack {
+        HStack {
+            Button("R. tau, B") {
+                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+            }
             
+            Button("Notificações") {
+                
+            }
         }
     }
 }
