@@ -36,6 +36,7 @@
 				App/ChefDeliveryApp.swift,
 				App/ContentView.swift,
 				Assets.xcassets,
+				GridView/OrderTypeGridView.swift,
 				NavigationBar/NavigationBar.swift,
 			);
 			target = 31B9996D2E1C49430035CF98 /* ChefDelivery */;
