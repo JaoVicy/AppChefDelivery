@@ -9,4 +9,6 @@ import Foundation
 
 struct OrderType: Identifiable { // for identify the id in class
     let id: Int
+    let name: String
+    let image: String
 }
