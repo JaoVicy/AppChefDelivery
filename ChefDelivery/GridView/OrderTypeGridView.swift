@@ -18,7 +18,8 @@ struct OrderTypeGridView: View {
             GridItem(.fixed(100.0)),
             GridItem(.fixed(100.0))
         ], content: {
-            
+            ForEach(orders, id: \.self) { orderItem in
+                Text(orderItem)
             }
         })
     }
