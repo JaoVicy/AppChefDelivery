@@ -10,7 +10,8 @@ import SwiftUI
 struct OrderTypeGridView: View {
     var body: some View {
         LazyHGrid(rows: [
-            
+            GridItem(.fixed(100.0)),
+            GridItem(.fixed(100.0))
         ], content: {
             
         })
