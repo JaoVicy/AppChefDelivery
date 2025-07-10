@@ -11,8 +11,6 @@ struct OrderTypeGridView: View {
     
     let orders = ["Restaurante", "Farmácia", "Descontos", "Gourmet", "Mercados", "Pet", "Bebidas"]
     
-    
-    
     var body: some View {
         LazyHGrid(rows: [
             GridItem(.fixed(100.0)),
