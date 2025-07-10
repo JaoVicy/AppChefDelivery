@@ -9,14 +9,11 @@ import SwiftUI
 
 struct OrderTypeGridView: View {
     var body: some View {
-        Grid {
-            GridRow {
-                Text("kjkj")
-                Text("kjkj")
-                Text("kjkj")
-            }
-            Divider()
-        }
+        LazyHGrid(rows: [
+            
+        ], content: {
+            
+        })
     }
 }
 
