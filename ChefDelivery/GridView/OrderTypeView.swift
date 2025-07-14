@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct OrderTypeView: View {
+    
+    let orderType: OrderType
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image(orderType.image)
     }
 }
 
 #Preview {
-    OrderTypeView()
+    OrderTypeView(orderType: OrderType( id: 1, name: "Restaurante", image: "hamburguer"))
 }
