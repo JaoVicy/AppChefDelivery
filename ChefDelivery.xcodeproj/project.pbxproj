@@ -37,6 +37,7 @@
 				App/ContentView.swift,
 				Assets.xcassets,
 				GridView/OrderTypeGridView.swift,
+				GridView/OrderTypeView.swift,
 				Model/DataSourceMock.swift,
 				Model/OrderType.swift,
 				NavigationBar/NavigationBar.swift,
