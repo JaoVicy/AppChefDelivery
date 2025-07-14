@@ -18,6 +18,7 @@ struct OrderTypeView: View {
                 .scaledToFit()
                 .fixedSize(horizontal: false, vertical: true)
             Text(orderType.name)
+                .font(.system(size: 10))
         }
         .frame(width: 70, height: 100)
     }
