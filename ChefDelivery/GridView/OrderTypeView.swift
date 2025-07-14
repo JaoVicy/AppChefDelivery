@@ -12,8 +12,13 @@ struct OrderTypeView: View {
     let orderType: OrderType
     
     var body: some View {
-        Image(orderType.image)
-        Text(orderType.name)
+        VStack{
+            Image(orderType.image)
+                .resizable()
+                .scaledToFit()
+            Text(orderType.name)
+        }
+        .frame(width: 70, height: 100)
     }
 }
 
