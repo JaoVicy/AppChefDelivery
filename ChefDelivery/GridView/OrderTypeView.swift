@@ -16,6 +16,7 @@ struct OrderTypeView: View {
             Image(orderType.image)
                 .resizable()
                 .scaledToFit()
+                .fixedSize(horizontal: false, vertical: true)
             Text(orderType.name)
         }
         .frame(width: 70, height: 100)
