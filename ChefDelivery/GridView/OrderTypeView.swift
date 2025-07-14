@@ -13,6 +13,7 @@ struct OrderTypeView: View {
     
     var body: some View {
         Image(orderType.image)
+        Text(orderType.name)
     }
 }
 
