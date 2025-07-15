@@ -12,6 +12,10 @@ struct StoresContainerView: View {
     let title: String = "Lojas"
     
     var body: some View {
+        VStack {
+            Text(title)
+                .font(.headline)
+        }
         
     }
 }
