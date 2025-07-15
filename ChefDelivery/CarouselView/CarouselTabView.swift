@@ -17,7 +17,9 @@ struct CarouselTabView: View {
     
     var body: some View {
         TabView {
-            
+            ForEach(orderMock) { mock in
+                    CarouselItemView(order: mock)
+            }
         }
     }
 }
