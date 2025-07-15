@@ -19,6 +19,7 @@ struct OrderTypeGridView: View {
                 OrderTypeView(orderType: orderItem)
             }
         }
+        .frame(height: 200)
     }
 }
 
