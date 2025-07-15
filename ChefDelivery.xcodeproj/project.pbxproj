@@ -43,6 +43,7 @@
 				Model/DataSourceMock.swift,
 				Model/OrderType.swift,
 				NavigationBar/NavigationBar.swift,
+				StoresView/StoreItemView.swift,
 			);
 			target = 31B9996D2E1C49430035CF98 /* ChefDelivery */;
 		};
