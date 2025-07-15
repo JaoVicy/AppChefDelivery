@@ -22,6 +22,7 @@ struct StoreItemView: View {
                 Text(order.name)
                     .font(.subheadline)
             }
+            Spacer()
         }
     }
 }
