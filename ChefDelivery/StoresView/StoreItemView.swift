@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct StoreItemView: View {
+    
+    let order: OrderType
+    
     var body: some View {
         HStack {
             Image("monstro-burger-logo")
@@ -19,5 +22,5 @@ struct StoreItemView: View {
 }
 
 #Preview {
-    StoreItemView()
+    StoreItemView(order: OrderType(id: 1, name: "Monstro Burger", image: "monstro-burger-logo"))
 }
