@@ -14,6 +14,10 @@ struct ContentView: View {
                 .padding(.horizontal, 15)
         }
         .padding()
+        
+        ScrollView(.vertical, showsIndicators: false) {
+            
+        }
     }
 }
 
