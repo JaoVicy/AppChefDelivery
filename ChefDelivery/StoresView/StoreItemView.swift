@@ -11,7 +11,9 @@ struct StoreItemView: View {
     var body: some View {
         HStack {
             Image("monstro-burger-logo")
-            Text("Mostro Burguer")
+            VStack {
+                Text("Mostro Burguer")
+            }
         }
     }
 }
