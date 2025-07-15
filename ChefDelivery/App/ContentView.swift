@@ -18,6 +18,7 @@ struct ContentView: View {
         ScrollView(.vertical, showsIndicators: false) {
             VStack {
                 OrderTypeGridView()
+                CarouselTabView()
             }
         }
     }
