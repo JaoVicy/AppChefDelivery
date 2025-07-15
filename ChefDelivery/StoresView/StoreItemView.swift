@@ -20,6 +20,7 @@ struct StoreItemView: View {
                 .frame(width: 50, height: 50)
             VStack {
                 Text(order.name)
+                    .font(.subheadline)
             }
         }
     }
