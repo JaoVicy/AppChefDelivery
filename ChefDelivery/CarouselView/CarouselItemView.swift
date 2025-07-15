@@ -12,10 +12,13 @@ struct CarouselItemView: View {
     let order: OrderType
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image(order.image)
+            .resizable()
+            .scaledToFit()
     }
 }
 
-#Preview {
-    CarouselItemView()
+#Preview(traits: .sizeThatFitsLayout) {
+    CarouselItemView(order: OrderType(id: 1, name: "Restaurante", image: "barbecue-banner"))
 }
+
