@@ -22,6 +22,7 @@ struct StoresContainerView: View {
                 }
             }
         }
+        .padding(20)
         
     }
 }
