@@ -23,6 +23,7 @@ struct OrderTypeGridView: View {
     }
 }
 
-#Preview {
+#Preview(traits: .sizeThatFitsLayout) {
     OrderTypeGridView()
+        .previewLayout(.sizeThatFits)
 }
