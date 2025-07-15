@@ -20,5 +20,6 @@ struct CarouselItemView: View {
 
 #Preview(traits: .sizeThatFitsLayout) {
     CarouselItemView(order: OrderType(id: 1, name: "Restaurante", image: "barbecue-banner"))
+        .padding()
 }
 
