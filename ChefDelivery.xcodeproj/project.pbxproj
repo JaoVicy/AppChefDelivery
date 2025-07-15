@@ -36,6 +36,7 @@
 				App/ChefDeliveryApp.swift,
 				App/ContentView.swift,
 				Assets.xcassets,
+				CarouselView/CarouselItemView.swift,
 				GridView/OrderTypeGridView.swift,
 				GridView/OrderTypeView.swift,
 				Model/DataSourceMock.swift,
