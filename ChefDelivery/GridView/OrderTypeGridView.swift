@@ -8,15 +8,17 @@
 import SwiftUI
 
 struct OrderTypeGridView: View {
+    
+    var gridLayout: [GridItem] {
+        return Array(repeating: GridItem(.flexible(), spacing: 10), count: 2)
+    }
+    
     var body: some View {
-        LazyHGrid(rows: [
-            GridItem(.fixed(100.0)),
-            GridItem(.fixed(100.0))
-        ], content: {
+        LazyHGrid(rows: gridLayout) {
             ForEach(ordersMock) { orderItem in
                 Text(orderItem.name)
             }
-        })
+        }
     }
 }
 
