@@ -28,4 +28,5 @@ struct StoreItemView: View {
 
 #Preview(traits: .sizeThatFitsLayout) {
     StoreItemView(order: OrderType(id: 1, name: "Monstro Burger", image: "monstro-burger-logo"))
+            .padding()
 }
