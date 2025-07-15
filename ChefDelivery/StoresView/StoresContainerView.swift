@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct StoresContainerView: View {
+    
+    let title: String = "Lojas"
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
     }
 }
 
