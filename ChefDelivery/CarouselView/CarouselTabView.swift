@@ -26,6 +26,6 @@ struct CarouselTabView: View {
     }
 }
 
-#Preview {
+#Preview(traits: .sizeThatFitsLayout) {
     CarouselTabView()
 }
