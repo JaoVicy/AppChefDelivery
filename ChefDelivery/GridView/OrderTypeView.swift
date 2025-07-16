@@ -26,5 +26,4 @@ struct OrderTypeView: View {
 
 #Preview(traits: .sizeThatFitsLayout) {
     OrderTypeView(orderType: OrderType( id: 1, name: "Restaurante", image: "hamburguer"))
-        .previewLayout(.sizeThatFits)
 }
